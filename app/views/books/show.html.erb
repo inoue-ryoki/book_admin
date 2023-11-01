@@ -1,0 +1,24 @@
+<%# <!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookAdmin</title>
+</head> %>
+<body>
+  <h1>書籍の情報</h1>
+  <p>
+    <strong>書籍名:</strong>
+    <%= @book.name%>
+  </p>
+  <p>
+    <strong>価格:</strong>
+    <%= @book.price%>
+  </p>
+  <p>
+    <strong>発売日:</strong>
+    <%= @book.published_on.to_s%>
+  </p>
+
+</body>
+<%# </html> %>
